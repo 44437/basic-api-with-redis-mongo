@@ -1,0 +1,3 @@
+
+GET {{BASE_URL}}/humans
+Accept: application/json

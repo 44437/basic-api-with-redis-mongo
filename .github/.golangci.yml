@@ -1,0 +1,25 @@
+linters-settings:
+  funlen:
+    lines: 90
+    statements: -1
+linters:
+  disable-all: true
+  enable:
+    - deadcode
+    - dupl
+    - funlen
+    - goconst
+    - gofmt
+    - goheader
+    - goimports
+    - gosimple
+    - govet
+    - ineffassign
+    - lll
+    - staticcheck
+    - structcheck
+    - stylecheck
+    - unparam
+    - unused
+    - varcheck
+    - whitespace
